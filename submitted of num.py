@@ -1,16 +1,8 @@
-# n=int(input("enter number:"))
-# i=1
-# sum=0
-# while(i<=n):
-#     sum=sum+i
-#     i=i+1
-#     print(sum)
-
-n=int(input("enter number: "))
-fac=1
+n=int(input("enter number:"))
 i=1
-
+sum=0
 while(i<=n):
-    a=fac*i
-    i=i*1
-    print(a)
+    sum=sum+i
+    i=i+1
+    print(sum)
+

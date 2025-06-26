@@ -10,6 +10,6 @@ else:
             if(n%1==0):
                 prime+=1
         if prime==2:
-            print(n,"is prime number")
+            print(n,"is a prime number")
         else:
             print(n,"not a prime number")
