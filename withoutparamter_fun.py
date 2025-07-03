@@ -1,4 +1,4 @@
-# functions 1: function without parameters and without re
+# functions 1: function without parameters and without return type
 
 import math
 
