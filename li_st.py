@@ -1,0 +1,15 @@
+l=[1,2,3,"drashti","hello","hiee up",True,5000,3000,False,1,1,1]
+print(type(l))
+
+l.append(100)
+print(l)
+print(l.count(1))
+print(l.index("drashti"))
+l.insert(4,"parth")
+print(l)
+l.pop(5)
+print(l)
+l.remove(2)
+print(l)
+l.reverse()
+print(l)
