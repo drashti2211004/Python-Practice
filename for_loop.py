@@ -22,10 +22,12 @@ for i in range(1,6):
 
     if n%2 == 0:
         print(n,"is event")
-        evsum=n
+        ev+=1
+        evsum+=n
     else :
         print(n,"is odd")
-        odsum=n
+        od+=1
+        odsum+=n
     sum+=n
 
 print("event count",ev)
