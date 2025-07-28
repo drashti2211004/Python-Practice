@@ -7,7 +7,7 @@ while True:
     press 4 for exit
 """
     print(menu)
-    choice=int(input("entrr choice: "))
+    choice=int(input("enter choice: "))
 
     if choice==1:
         #print("prime number")

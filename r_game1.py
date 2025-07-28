@@ -20,3 +20,6 @@ while True:
 
     else:
         print("Original number is smallest")
+
+        
+

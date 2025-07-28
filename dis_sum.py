@@ -18,7 +18,6 @@ l1=[32,89,62]
 
 
 l3={}
-
 for i in range(len(l)):
     l3[l[i]]=l1[i]
 

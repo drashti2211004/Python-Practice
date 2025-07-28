@@ -1,0 +1,2 @@
+hello write method !!
+ append method

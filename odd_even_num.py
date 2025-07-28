@@ -6,13 +6,14 @@ odsum=0
 sum=0
 
 while(i<=5):
-    n=int(input(f"Enter your Number {1} :"))
+    n=int(input("Enter your Number :"))
     if n%2==0:
         print(n,"is event number.")
-        print(even)
+        even+=1
         evsum+=n
     else:
         print(n,"is odd number")
+        odd+=1
         odsum+=n
     sum+=n
     i=i+1

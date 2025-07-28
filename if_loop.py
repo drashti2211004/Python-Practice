@@ -8,3 +8,10 @@ elif n>=18:
 
 else:
     print("not valid age")
+
+
+
+
+
+
+    

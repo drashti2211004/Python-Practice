@@ -1,7 +1,8 @@
 l=[]
+
 n=int(input("Enter your len: "))
 for i in range(1,n+1):
-    a=input("ENter your number: ")
+    a=input("enter your number: ")
     l.append(a)
 
 print(l)
