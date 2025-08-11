@@ -26,7 +26,7 @@ while True:
             for i,j in d1.items():
                 for k,l in d2.items(): 
                     if i==k:             
-                        d3[i]=j+l
+                        d3[       i]=j+l
             print(d3)
                
 
