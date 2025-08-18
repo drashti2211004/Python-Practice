@@ -5,7 +5,7 @@ print(len(s))                #2 len dekhd se
 print(s.count("p"))          #3 P string ma kya index pr che a dekhdse
 print(s.casefold())          #
 print(s.upper())             #5 badhi string ne capital karse
-print(s.lower())             #6 badhi string ne small karse
+print(s.lower())             #6 badhi string ne small karse 
 print(s.center(24,"-"))      #7 string ne center ma lavse
 print(s.find("p"))           #8 p in index dekhad se
 print(s.index("y"))          #9 y in index dekhad se

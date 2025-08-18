@@ -6,8 +6,8 @@ while(i<=10):  #condition
 
 i=60 #intialization
 while(i>=1):  #condition
- print(i)
- i=i-1
+    print(i)
+    i=i-1
 
 
 

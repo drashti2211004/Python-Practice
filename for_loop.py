@@ -7,9 +7,9 @@
 #     print(i)
 
 # #user method
-# n=int(input("enetr your number: "))
-# for i in range(1,n+1):
-#     print(i)
+n=int(input("enetr your number: "))
+for i in range(1,n+1):
+    print(i)
 
 
 ev=0
