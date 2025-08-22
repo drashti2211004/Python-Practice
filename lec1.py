@@ -11,6 +11,7 @@ class Inventory():
             'apple': {'price': 70, 'quantity': 0}
         }
 
+
     def manager_update(self):
         print("\n--- Manager Stock Update ---")
         name = input("Enter product name: ")
@@ -49,10 +50,9 @@ class Inventory():
 
    
     def display_inventory(self):
-        print("\n--- Current Inventory ---")
+        print("\n-- Current Inventory ---")
         for name, details in self.items.items():
-            print(f"{name} -> Price: {round(details['price'],2)}, Quantity: {details['quantity']}")
-        print("-------------------------\n")
+            print(f"{name}: ${details['price']} | Stock: {details['quantity']}")
 
 
 
@@ -85,9 +85,9 @@ while True :
             elif choice1 == 2 :
                 obj.display_inventory()
 
-            elif choice1 == 3 :
-                print("thank you!!")
-                break
+            elif choice == 3:
+                obj.display_inventory()
+                
             else :
                 print("invalid choice!!")
                 break            
@@ -98,7 +98,7 @@ while True :
         obj.user_buy()
 
     elif choice == 3:
-        obj.display_inventory()
+        print(obj.display_inventory())
 
     elif choice == 4:
         print("thank you!!")
